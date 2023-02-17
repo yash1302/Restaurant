@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* navbar */
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* navbar-text and logo */
+.navbar-logo{
+    cursor: pointer;
+}
+
+.navbar-text{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.navbar-text-items{
+    
+    display: flex;
+    
+}
+
+#navbar ul{
+    display: flex;
+    column-gap: 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3 rem;
+
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: #696969;
+    font-weight: 500;
+    font-size: 18px;
+    display: block;
+    /* padding: 3px 22px; */
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* navbar button */
+.button{
+    display: flex;
+    column-gap: 30px;
+}
+
+.button1{
+    color: black;
+    background-color: white;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    border: 1PX solid #cccccc;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.button2{
+    color: white;
+    background-color: #ff7629;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    border: 1PX none #1890ff;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* home */
+
+#home{
+    display: flex;
+}
+
+.home-text{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    row-gap: 20px;
+    padding: 100px 0 0 150px;
+    align-items: flex-start;
+}
+
+.home-text-heading{
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+}
+
+.home-text-heading-black{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+
+.home-text-heading-orange{
+    color: #FF7629;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+
+.home-text-para{
+    font-size: 18px;
+    color: #757575;
+    width: 70%;
+}
+
+.home-text-button{
+    display: flex;
+    column-gap: 30px;
+}
+
+.home-left{
+    display: flex;
+    background-color: #FF7629;
+}
+
+.home-img{
+    width: 400px;
+    border-radius: 50px;
+    padding: 40px;
+    position: relative;
+    right: 200px;
+}
