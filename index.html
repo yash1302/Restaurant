@@ -1,52 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
 
-</head>
-<body>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/0bbc0d0a8d.js" crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
     <div id="navbar">
-        <div class="navbar-text">
-            <div class="navbar-logo"><img src="img/logo.svg" alt=""></div>
-            <div class="navbar-text-items">
-                <ul>
-                    <li class="navbar-items"><a href="home">Home</a></li>
-                    <li class="navbar-items"><a href="about">About</a></li>
-                    <li class="navbar-items"><a href="menu">Menu</a></li>
-                    <li class="navbar-items"><a href="pages">Pages</a></li>
-                    <li class="navbar-items"><a href="cart">Cart</a></li>
-                </ul>
+      <div class="navbar-text">
+        <div class="navbar-logo"><img src="img/logo.svg" alt="" /></div>
+        <div class="navbar-text-items">
+          <ul>
+            <li class="navbar-items"><a href="home">Home</a></li>
+            <li class="navbar-items"><a href="about">About</a></li>
+            <li class="navbar-items"><a href="menu">Menu</a></li>
+            <li class="navbar-items"><a href="pages">Pages</a></li>
+            <li class="navbar-items"><a href="cart">Cart</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="button">
+        <button class="button1">Order Online</button>
+        <button class="button2">Reservate</button>
+      </div>
+    </div>
+    <!-- home -->
+    <div class="home">
+      <div class="home-text">
+        <div class="home-text-heading">
+          <div class="home-text-heading-black">The best place to</div>
+          <div class="home-text-heading-orange">eat burgers in LA.</div>
+        </div>
+        <div class="home-text-para">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam
+          vitae velit bibendum elementum eget non vivamus volutpat odio cras
+          vestibulum purus aliquam.
+        </div>
+        <div class="home-text-button">
+          <button class="button2">Reservate</button>
+          <button class="button1">Order Online</button>
+        </div>
+      </div>
+      <div class="home-left">
+        <img class="home-img" src="img/food1.jpeg" alt="" />
+      </div>
+    </div>
+    <!-- order app -->
+    <div class="order-app">
+      <div class="order-app-text">Order from your favorite app today!</div>
+      <div class="order-app-companies">
+        <ul>
+          <li><img src="img/doordash.svg" alt="" /></li>
+          <li><img src="img/postmates.svg" alt="" /></li>
+          <li><img src="img/rappi.svg" alt="" /></li>
+          <li><img src="img/grubhub.svg" alt="" /></li>
+        </ul>
+      </div>
+    </div>
+    <!-- menu -->
+    <div class="menu">
+      <div class="menu-heading">Browse our menu</div>
+      <div class="menu-cards">
+        <div class="card" style="width: 14rem">
+          <img src="img/menu-img1.svg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Breakfast</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam
+              diam
+            </p>
+            <div class="cardtext">Explore Menu</div>
+          </div>
+        </div>
+        <div class="card" style="width: 14rem">
+          <img src="img/menu-img2.svg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Main Dishes</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam
+              diam
+            </p>
+            <div class="cardtext">Explore Menu</div>
+          </div>
+        </div>
+        <div class="card" style="width: 14rem">
+          <img src="img/menu-img3.svg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Drinks</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam
+              diam
+            </p>
+            <div class="cardtext">Explore Menu</div>
+          </div>
+        </div>
+        <div class="card" style="width: 14rem">
+          <img src="img/menu-img4.svg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Desserts</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam
+              diam
+            </p>
+            <div class="cardtext">Explore Menu</div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-button">
+        <button class="button2">Order Online</button>
+        <button class="button1">Book a table</button>
+      </div>
+    </div>
+
+    <!-- about us -->
+    <div class="about-us">
+        <div class="about-us-img">
+            <img class="about-us-image" src="img/food2.jpeg" alt="">
+            <div class="about-us-address">
+                <div class="about-us-address-line1">Come and visit us</div>
+                <div class="about-us-address-line2">
+                    <div class="about-us-address-icon"><img src="img/location.svg" alt=""></div>
+                    <div class="about-us-address-text">837 W. Marshall Lane Marshalltown, IA 50158, Los Angeles</div>
+                </div>
+                <div class="about-us-address-line2">
+                    <div class="about-us-address-icon"><img src="img/telephone.svg" alt=""></div>
+                    <div class="about-us-address-text">(414) 857 - 0107</div>
+                </div>
+                <div class="about-us-address-line2">
+                    <div class="about-us-address-icon"><img src="img/message.svg" alt=""></div>
+                    <div class="about-us-address-text">losangeles@restaurantex.com</div>
+                </div>
             </div>
+        </div>
+        <div class="about-us-text">
+            <div class="about-us-text-heading">About us</div>
+            <div class="about-us-text-p1">Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam vitae velit bibendum elementum eget non vivamus volutpat odio cras vestibulum purus aliquam.</div>
+            <div class="about-us-text-p1">Lorem ipsum dolor sit amet consectetur adipiscing elit enim bibendum sed et aliquet aliquet risus tempor semper odio egestas id pulvinar consectetur elit tortor non hac pellentesque lacus donec accumsan quisque ultricies adipiscing mauris tortor cras est eu accumsan mauris.</div>
+            <div class="button">
+                <button class="button1">About us</button>
+                <button class="button2">Join our team</button>
+            </div>
+        </div>
+    </div>
+
+      <!-- menu -->
+    <div class="browse-menu">
+        <div class="browse-menu-heading">Browse our menu</div>
+        <div class="browse-menu-para">Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam vitae velit bibendum elementum.</div>
+        <div class="browse-menu-cards">
+            <div class="browse-menu-cards-row">
+                <div class="browse-img-card1">
+                    <div class="price">$ 10.99 USD</div>
+                    <img src="img/browse-img1.jpeg" class="browse-img" alt="">
+                    <div class="browse-img-heading">Classic Burger</div>
+                    <div class="browse-img-para">Lorem ipsum dolor sit amet dolor consectetur adipiscing elit</div>
+                </div>
+                <div class="browse-img-card1">
+                    <div class="price">$ 6.99 USD</div>
+                    <img src="img/browse-img2.jpeg" class="browse-img" alt="">
+                    <div class="browse-img-heading">Choclate Milkshake</div>
+                    <div class="browse-img-para">Lorem ipsum dolor sit amet dolor consectetur adipiscing elit</div>
+                </div>
+                <div class="browse-img-card1">
+                    <div class="price">$ 5.99 USD</div>
+                    <img src="img/browse-img3.jpeg" class="browse-img" alt="">
+                    <div class="browse-img-heading">Classic Fries</div>
+                    <div class="browse-img-para">Lorem ipsum dolor sit amet dolor consectetur adipiscing elit</div>
+                </div>
+                <div class="browse-img-card">
+                    <div class="price">$ 8.99 USD</div>
+                    <img src="img/browse-img4.jpeg" class="browse-img" alt="">
+                    <div class="browse-img-heading">Pancakes</div>
+                    <div class="browse-img-para">Lorem ipsum dolor sit amet dolor consectetur adipiscing elit</div>
+                </div>
+            </div>
+            <div class="browse-menu-cards-row">
+                <div class="browse-img-card1">
+                    <div class="price">$ 3.99 USD</div>
+                    <img src="img/browse-img5.jpeg" class="browse-img" alt="">
+                    <div class="browse-img-heading">Ice Cream</div>
+                    <div class="browse-img-para">Lorem ipsum dolor sit amet dolor consectetur adipiscing elit</div>
+                </div>
+                <div class="browse-img-card1">
+                    <div class="price">$ 9.99 USD</div>
+                    <img src="img/browse-img6.jpeg" class="browse-img" alt="">
+                    <div class="browse-img-heading">Chicken Burger</div>
+                    <div class="browse-img-para">Lorem ipsum dolor sit amet dolor consectetur adipiscing elit</div>
+                </div>
+                <div class="browse-img-card1">
+                    <div class="price">$ 6.99 USD</div>
+                    <img src="img/browse-img7.jpeg" class="browse-img" alt="">
+                    <div class="browse-img-heading">Egg toast</div>
+                    <div class="browse-img-para">Lorem ipsum dolor sit amet dolor consectetur adipiscing elit</div>
+                </div>
+                <div class="browse-img-card1">
+                    <div class="price">$ 1.99 USD</div>
+                    <img src="img/browse-img8.jpeg" class="browse-img" alt="">
+                    <div class="browse-img-heading">Regular Soda</div>
+                    <div class="browse-img-para">Lorem ipsum dolor sit amet dolor consectetur adipiscing elit</div>
+                </div>
+            </div>
+            
         </div>
         <div class="button">
-            <button class="button1">Order Online</button>
-            <button class="button2">Reservate</button>
+            <button class="button2">Order Online</button>
+            <button class="button1">Book a table</button>
         </div>
     </div>
 
-    <div id="home">
-        <div class="home-text">
-            <div class="home-text-heading">
-                <div class="home-text-heading-black">The best place to</div>
-                <div class="home-text-heading-orange">eat burgers in LA.</div>
-            </div>
-            <div class="home-text-para">Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam vitae velit bibendum elementum eget non vivamus volutpat odio cras vestibulum purus aliquam.</div>
-            <div class="home-text-button">
-                <button class="button2">Reservate</button>
-                <button class="button1">Order Online</button>
-                
-            </div>
+      <!-- aftermenu -->
+    <div class="aftermenu">
+      <div class="aftermenu-text">
+        <div class="aftermenu-heading">Taste the most delicious burger in Los Angeles, CA</div>
+        <div class="aftermenu-para">Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam vitae velit bibendum elementum. Order online</div>
+        <div class="button">
+          <button class="button1">Order Online</button>
+          <button class="button2-border">Reservate</button>
         </div>
-        <div class="home-left">
-            <img class="home-img" src="img/food1.jpeg" alt="">
-        </div>
+      </div>
+      <div class="aftermenu-img">
+        <img  class="burger" src="img/burger.jpeg" alt="">
+      </div>
     </div>
-</body>
+
+      <!-- review -->
+
+      <div class="review">
+        <div class="1">1</div>
+        <div class="review-heading">What our clients say</div>
+        <div class="review-para">Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam vitae velit bibendum elementum.</div>
+        <div class="reviewbox">
+          <div class="leftarrow"><i class="fa-solid fa-arrow-left"></i></div>
+          <div class="actual-review">
+            <div class="stars">
+              <div class="star-img"><img src="img/star.png" alt="" class="star-img"></div>
+              <div class="star-img"><img src="img/star.png" alt="" class="star-img"></div>
+              <div class="star-img"><img src="img/star.png" alt="" class="star-img"></div>
+              <div class="star-img"><img src="img/star.png" alt="" class="star-img"></div>
+              <div class="star-img"><img src="img/star.png" alt="" class="star-img"></div>
+              
+            </div>
+            <div class="actual-review-heading">“You must try these burgers”</div>
+            <div class="actual-review-para">Lorem ipsum dolor sit amet consectetur adipiscing elitilmim semper adipiscing massa gravida nisi cras enim quis nibholm varius amet gravida ut facilisis neque egestas.</div>
+            <div class="actual-review-person">
+              <div class="person-img"><img src="img/face1.jpg" class="face1" alt=""></div>
+              <div class="person-name">
+                <div class="name">Matt Cannon</div>
+                <div class="place">San Diego, CA</div>
+              </div>
+            </div>
+
+          </div>
+          <div class="rightarrow"><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div class="button">
+          <button class="button2">Order Online</button>
+          <button class="button1">Book a table</button>
+        </div>
+      </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
